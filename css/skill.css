@@ -1,0 +1,34 @@
+.card{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns:  1fr 1fr 1fr;
+}
+
+
+.card div{
+    display:flex;
+    flex-direction: column;
+    margin: 2rem;
+    height: 200px;
+    background-color: var(--color3);
+    border-radius: 8px; 
+    align-items: center;
+    justify-content: center;
+    transition: all 300ms;
+}
+
+.card div:hover {
+    opacity: 0.8;
+    transform: scale(1.10);
+}
+.card img{
+    height: 4rem;
+}
+
+.texto-skill{
+        font-size: 46px;
+        margin: 6rem;      
+    }
+.texto-skill span{
+        color: var(--color3);
+    }

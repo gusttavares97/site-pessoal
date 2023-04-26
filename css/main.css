@@ -2,6 +2,10 @@ body{
     margin: 0;
     box-sizing: border-box;
 }
+a{
+    list-style: none;
+    text-decoration: none;
+}
 
 header{
 height: 3rem;
@@ -13,16 +17,17 @@ nav{
     position: fixed;
     width: 100%;
 }
-
-.nav li{
-    display: block;
-    float: left;
-    color: var(--color5);
-    margin: 20px;
-    list-style: none;
-    font-size: 1.5rem;
-    cursor: pointer;
+nav li{
+    display: inline;
+     margin-left: 2rem;    
 }
+
+.nav li a{
+    color: var(--color5);
+    font-size: 1.5rem;
+}
+
+
 
 .inicio{
 
@@ -55,3 +60,21 @@ border-bottom-left-radius: 5px;
     justify-content: center;
     align-items: center;
 } 
+
+.eu{
+    margin: 6rem;
+    margin-top: 12rem;
+}
+
+.eu h1{
+    font-size: 46px;
+}
+
+.eu span{
+    color: var(--color3);
+}
+
+.eu p{
+    font-size: 22px;
+    background-color: var(--color5);
+}
