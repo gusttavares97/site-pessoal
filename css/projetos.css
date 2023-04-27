@@ -1,0 +1,82 @@
+.projetos h1{
+    font-size: 46px;
+    margin-left: 40%;
+}
+
+.projetos span{
+    color: var(--color3);
+}
+
+.projetos-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin:20px;
+    height: 300px;
+}
+
+.projetos-container p{
+    font-size: 32px;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo{
+    background-image: url(../img/Sem\ Título-1.png);
+    background-size: cover;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;    
+    align-items: end;
+}
+.conteudo-btn a{
+
+    text-decoration: none;
+    color: var(--color1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.conteudo-btn{
+cursor:pointer;  
+    --color: #0077ff;
+  font-family: inherit;
+  display: inline-block;
+  width: 6em;
+  height: 2.6em;
+  line-height: 2.5em;
+  overflow: hidden;
+  margin: 20px;
+  font-size: 17px;
+  z-index: 1;
+  color: var(--color);
+  border: 2px solid var(--color);
+  border-radius: 6px;
+  position: relative;
+}
+
+.conteudo-btn::before {
+    position: absolute;
+    content: "";
+    background: var(--color3);
+    width: 150px;
+    height: 200px;
+    z-index: -1;
+    border-radius: 50%;
+  }
+  
+  .conteudo-btn:hover {
+    color: var(--color1);
+  }
+  
+  .conteudo-btn:before {
+    top: 100%;
+    left: 100%;
+    transition: .3s all;
+  }
+  
+  .conteudo-btn:hover::before {
+    top: -30px;
+    left: -30px;
+  }
+  
