@@ -1,0 +1,43 @@
+.contatos{
+    margin: 2px;
+    margin-top: 12rem;
+    height: 200px;
+}
+
+.contatos h1{
+    margin-left: 40%;
+    font-size: 46px;
+}
+
+.contatos span{
+    color: var(--color3);
+}
+
+.contato-texto{
+margin-left: 20%;
+
+}
+
+.container-contatos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid:2rem; 
+}
+
+.contatos-img{
+    display: inline;
+}
+.contatos-img img{
+    height:60px ;
+    margin: 0.8rem;
+}
+
+.footer{
+    background-color: var(--color1);
+    width: 100%;
+}
+
+.footer h3{
+    color: var(--color5);
+    margin-left: 40%;
+}
