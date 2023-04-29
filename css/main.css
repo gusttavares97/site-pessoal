@@ -59,6 +59,7 @@ border-bottom-left-radius: 5px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Roboto';
 } 
 
 .eu{
@@ -69,6 +70,7 @@ border-bottom-left-radius: 5px;
 .eu h1{
     margin-left: 40%;
     font-size: 46px;
+    font-family: 'Ubuntu' Helvetica, sans-serif;
 }
 
 .eu span{

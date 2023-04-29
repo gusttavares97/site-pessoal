@@ -1,6 +1,7 @@
 .projetos h1{
     font-size: 46px;
     margin-left: 40%;
+    font-family: 'Ubuntu' Helvetica, sans-serif;
 }
 
 .projetos span{
@@ -27,6 +28,7 @@
     display: flex;
     justify-content: space-between;    
     align-items: end;
+    
 }
 .conteudo-btn a{
 
@@ -97,5 +99,9 @@ cursor:pointer;
       font-size: 22px;
       align-items: center;
   }
+
+.conteudo{
+width: 100%;
+}
   
   }
