@@ -80,7 +80,7 @@ border-bottom-left-radius: 5px;
     background-color: var(--color5);
 }
 
-@media (max-width:430px ){
+@media (max-width:520px ){
     nav li{
         display: inline;
          margin-left: 1rem;    

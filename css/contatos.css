@@ -40,7 +40,7 @@ margin-left: 20%;
     margin-left: 40%;
 }
 
-@media (max-width:430px ){
+@media (max-width:520px ){
 
     .contatos{
         margin: 2px;
