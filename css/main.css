@@ -60,16 +60,22 @@ border-bottom-left-radius: 5px;
     justify-content: center;
     align-items: center;
     font-family: 'Roboto';
-} 
+    position: relative; /* definir a posição como relativa para criar um contexto para o pseudo-elemento */
+}
 
-.inicio-texto::before{
+.inicio-texto::after {
     content: '';
-    
-     display: inline-block;
-     height: 10px;
-     width:30px;
-     background-color: var(--color3);
+    display: inline-block;
+    height: 10px;
+    width: 30px;
+    background-color: var(--color3);
+    position: absolute; 
+    z-index: -1; 
+}
+
+.inicio-texto h1, .inicio-texto p {
     position: relative;
+    z-index: 1;
 }
 
 .eu{
